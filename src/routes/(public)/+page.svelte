@@ -1,11 +1,43 @@
 <script lang="ts">
-  let name = 'Jon Doe';
-
-  name = name.toUpperCase();
 </script>
 
 <h1>Shindra design studio</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<a href="/contact-us">Contact us</a>
+<a href="/customer-stories">Customer stories</a>
+
+<article>
+  <h2>For home owners</h2>
+</article>
+
+<article>
+  <h2>For businesses</h2>
+  <a href="/">Let's create a workspace that inspires productivity and success.</a>
+</article>
+
+<section>
+
+  <h2>Why we are different</h2>
+
+  <article>
+    <span>
+      <i class="ri-vip-diamond-line"></i>
+    </span>
+    <h3>Quality you can feel</h3>
+  </article>
+
+<article>
+  <span>
+    <i class="ri-user-3-line"></i>
+  </span>
+  <h3>Personalized approach</h3>
+  <p>We work closely with your to create a design that reflects your individual or brand style.</p>
+</article>
+</section>
+
+<section>
+<h2>But don't take our word for it.</h2>
+<p>Here is what clients are saying about us.</p>
+</section>
 
 <style lang="scss">
 </style>
