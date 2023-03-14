@@ -15,6 +15,7 @@ specifiers:
   react: ^18.2.0
   react-dom: ^18.2.0
   react-is: ^18.2.0
+  remixicon: ^2.5.0
   sanity: ^3.6.0
   sass: ^1.59.2
   styled-components: ^5.3.9
@@ -40,6 +41,7 @@ devDependencies:
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-is: 18.2.0
+  remixicon: 2.5.0
   sanity: 3.6.0_xwsyrbsroxw7f3u5ykw6jf7inu
   sass: 1.59.2
   styled-components: 5.3.9_7i5myeigehqah43i5u7wbekgba
@@ -4025,6 +4027,10 @@ packages:
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
+    dev: true
+
+  /remixicon/2.5.0:
+    resolution: {integrity: sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==}
     dev: true
 
   /require-directory/2.1.1:
