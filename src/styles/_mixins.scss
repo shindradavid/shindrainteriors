@@ -1,0 +1,61 @@
+/* MEDIA QUERIES */
+
+@mixin screen-sm {
+  @media screen and (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media screen and (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin screen-2xl {
+  @media screen and (min-width: 1280px) {
+    @content;
+  }
+}
+
+@mixin screen-3xl {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin apply-light-theme {
+  --bg-primary: var(--brand-green-50);
+  --bg-secondary: var(--brand-green-100);
+  --bg-tertiary: var(--brand-green-200);
+  --txt-primary: var(--brand-green-900);
+  --txt-secondary: var(--brand-green-800);
+  --txt-tertiary: var(--brand-green-700);
+  background-color: var(--bg-primary);
+  color: var(--txt-secondary);
+  color-scheme: light;
+}
+
+@mixin apply-dark-theme {
+  --bg-primary: var(--brand-green-900);
+  --bg-secondary: var(--brand-green-800);
+  --bg-tertiary: var(--brand-green-700);
+  --txt-primary: var(--brand-green-50);
+  --txt-secondary: var(--brand-green-100);
+  --txt-tertiary: var(--brand-green-200);
+  background-color: var(--bg-primary);
+  color: var(--txt-secondary);
+  color-scheme: dark;
+}
