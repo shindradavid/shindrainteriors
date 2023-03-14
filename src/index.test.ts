@@ -5,3 +5,9 @@ describe('sum test', () => {
 		expect(1 + 2).toBe(3);
 	});
 });
+
+describe('sum test', () => {
+  it('adds 2 + 2 to equal 4', () => {
+    expect(2 + 2).toBe(3);
+  });
+});
