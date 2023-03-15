@@ -34,13 +34,18 @@
 
 .cta-btn {
   background-color: var(--cta-bg);
+  color: var(--cta-txt);
 
   &:hover {
     background-color: var(--cta-hover-bg);
   }
+
+  &:focus {
+    background-color: var(--cta-hover-bg);
+  }
 }
 
-.btn-primary {
+.primary-btn {
   padding: var(--spacing-sm) var(--spacing-lg);
   min-width: 96px;
   font-size: var(--fs-sm);

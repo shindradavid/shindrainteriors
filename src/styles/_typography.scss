@@ -1,7 +1,7 @@
 @use './mixins';
 
 :root {
-  // font-family 
+  // font-family
   --headings-ff: 'Space Grotesk', Helvetica, Arial, sans-serif;
   --base-ff: 'Montserrat', Helvetica, Arial, sans-serif;
 
@@ -57,14 +57,17 @@ h6 {
 h1 {
   font-size: var(--xl-fs);
   font-weight: 700;
+  line-height: 1;
 }
 
 h2 {
   font-size: var(--lg-fs);
   font-weight: 600;
+  line-height: 1;
 }
 
 h3 {
   font-size: var(--md-fs);
   font-weight: 500;
+  line-height: 1.25;
 }

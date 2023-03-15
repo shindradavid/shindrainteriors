@@ -1,8 +1,12 @@
 <script lang="ts">
+  import Seo from '$components/Seo.svelte';
 </script>
 
-<h1>Shindra design studio</h1>
-<a href="/contact-us">Contact us</a>
+<Seo />
+
+<h1>Shindra Interiors.</h1>
+<p>Sleek, Stunning, Stylish interior designs.</p>
+<a href="/contact-us" class="btn primary-btn cta-btn">Contact us</a>
 <a href="/customer-stories">Customer stories</a>
 
 <a href="/for-homes">

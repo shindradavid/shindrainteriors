@@ -14,14 +14,19 @@
   --blue: hsl(203, 65%, 8%);
 
   // background
-  --cta-bg: hsl(28, 67%, 48%);
+  --cta-bg: #c15f07;
+  --cta-stroke: #241c15;
+  --cta-txt: #ffffff;
+
+  --link-text: ;
+  --link-txt-hover: ;
+
   --cta-hover-bg: hsl(28, 93%, 38%);
   --primary-bg: ;
   --secondary-bg: ;
   --tertiary-bg: ;
   // text color
-  --cta-txt: ;
-  --primary-txt: ;
+  --primary-txt: var(--gray-50);
   --secondary-txt: ;
   --tertiary-txt: ;
 
