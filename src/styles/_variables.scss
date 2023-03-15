@@ -24,6 +24,8 @@
   --animation-ease-in: cubic-bezier(0.8, 0.2, 0.6, 1);
   --animation-ease-out: cubic-bezier(0.2, 0.8, 0.4, 1);
   --animation-ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+
+  --base-animation-speed: ;
   /* animation duration */
   --animation-duration-fastest: 200ms;
   --animation-duration-fast: 300ms;
@@ -31,6 +33,7 @@
   --animation-duration-slow: 500ms;
   --animation-duration-slowest: 600ms;
   /* border-radius */
+  --base-radius: ;
   --radius-xs: 4px;
   --radius-sm: 8px;
   --radius-md: 16px;
