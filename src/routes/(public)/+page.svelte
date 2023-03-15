@@ -4,21 +4,21 @@
 
 <Seo />
 
-<h1>Shindra Interiors.</h1>
+<h1>Sleek, Stylish and Stunning Interiors.</h1>
 <p>Sleek, Stunning, Stylish interior designs.</p>
 <a href="/contact-us" class="btn primary-btn cta-btn">Contact us</a>
 <a href="/customer-stories">Customer stories</a>
 
-<a href="/for-homes">
+<a href="/home-interiors" aria-label="Home Interior designs">
   <article>
-    <h2>For homes</h2>
+    <h2>Home interiors</h2>
     <p>Design your dream home with us.</p>
   </article>
 </a>
 
-<a href="/for-businesses">
+<a href="/office-interiors" aria-label="Office interior designs">
   <article>
-    <h2>For businesses</h2>
+    <h2>Office interiors</h2>
     <a href="/">Let's create a workspace that inspires productivity and success.</a>
   </article>
 </a>
