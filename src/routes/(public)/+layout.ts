@@ -10,7 +10,7 @@ export const load = (() => {
     projectId: PUBLIC_SANITY_PROJECT_ID,
     useCdn: true,
     apiVersion: '2023-04-14'
-  })
-  
-  return { sanity }
+  });
+
+  return { sanity };
 }) satisfies LayoutLoad;
