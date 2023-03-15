@@ -1,46 +1,35 @@
 @use './mixins';
 
 :root {
-  // font-family
-  --ff-serif: 'Frank Ruhl Libre', serif;
-  --ff-mono: monospace;
-  --ff-sans: 'Montserrat', Helvetica, Arial, sans-serif;
-  --ff-body: var(--ff-sans);
-  --ff-heading: 'Space Grotesk', Helvetica, Arial, sans-serif;
-  --fs-xs: 1.2rem;
-  --fs-sm: 1.4rem;
-  --fs-base: 1.6rem;
-  --fs-md: 1.8rem;
-  --fs-lg: 2.4rem;
-  --fs-xl: 2.8rem;
-  --fs-2xl: 4.8rem;
-  --fs-3xl: 5.6rem;
-  --fs-4xl: 6.4rem;
+  // font-family 
+  --headings-ff: 'Space Grotesk', Helvetica, Arial, sans-serif;
+  --base-ff: 'Montserrat', Helvetica, Arial, sans-serif;
+
   // font-size
   font-size: 62.5%;
+  --xs-fs: 1.2rem;
+  --sm-fs: 1.4rem;
+  --base-fs: 1.6rem;
+  --md-fs: 1.8rem;
+  --lg-fs: 2.4rem;
+  --xl-fs: 3.2rem;
 
   @include mixins.screen-lg {
-    --fs-xs: 1.4rem;
-    --fs-sm: 1.6rem;
-    --fs-base: 1.8rem;
-    --fs-md: 2.4rem;
-    --fs-lg: 3.2rem;
-    --fs-xl: 4.8rem;
-    --fs-2xl: 5.6rem;
-    --fs-3xl: 6.4rem;
-    --fs-4xl: 7.2rem;
+    --xs-fs: 1.4rem;
+    --sm-fs: 1.6rem;
+    --base-fs: 1.8rem;
+    --md-fs: 2.4rem;
+    --lg-fs: 3.2rem;
+    --xl-fs: 4rem;
   }
 
   @supports (font-size: clamp(1.6rem, 1.536rem + 0.18vw, 1.8rem)) {
-    --fs-xs: clamp(1.2rem, 1.136rem + 0.18vh, 1.4rem);
-    --fs-sm: clamp(1.4rem, 1.22rem + 0.18vh, 1.6rem);
-    --fs-base: clamp(1.6rem, 1.536rem + 0.18vw, 1.8rem);
-    --fs-md: clamp(1.8rem, 1.776rem + 0.71vw, 2.4rem);
-    --fs-lg: clamp(2.4rem, 2rem + 1.07vw, 3.2rem);
-    --fs-xl: clamp(3.2rem, 2.22rem + 1.79vw, 4.8rem);
-    --fs-2xl: clamp(4.8rem, 2.536rem + 1.79vw, 5.6rem);
-    --fs-3xl: clamp(5.6rem, 2.776rem + 1.79vw, 6.4rem);
-    --fs-4xl: clamp(6.4rem, 2.776rem + 1.79vw, 7.2rem);
+    --xs-fs: clamp(1.2rem, 1.136rem + 0.18vh, 1.4rem);
+    --sm-fs: clamp(1.4rem, 1.22rem + 0.18vh, 1.6rem);
+    --base-fs: clamp(1.6rem, 1.536rem + 0.18vw, 1.8rem);
+    --md-fs: clamp(1.8rem, 1.776rem + 0.71vw, 2.4rem);
+    --lg-fs: clamp(2.4rem, 2rem + 1.07vw, 3.2rem);
+    --xl-fs: clamp(3.2rem, 2.22rem + 1.79vw, 4rem);
   }
 }
 
@@ -48,9 +37,9 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: var(--fs-base);
+  font-size: var(--base-fs);
   line-height: 1.6;
-  font-family: var(--ff-sans);
+  font-family: var(--base-ff);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -62,17 +51,20 @@ h4,
 h5,
 h6 {
   line-height: 1.3;
-  font-family: var(--ff-heading);
+  font-family: var(--headings-ff);
 }
 
 h1 {
-  font-size: var(--fs-xl);
+  font-size: var(--xl-fs);
+  font-weight: 700;
 }
 
 h2 {
-  font-size: var(--fs-lg);
+  font-size: var(--lg-fs);
+  font-weight: 600;
 }
 
 h3 {
-  font-size: var(--fs-md);
+  font-size: var(--md-fs);
+  font-weight: 500;
 }

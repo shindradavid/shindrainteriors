@@ -58,7 +58,10 @@ select {
   border: none;
   background-color: inherit;
   color: inherit;
-  font: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  line-height: inherit;
 
   &:hover {
     cursor: pointer;

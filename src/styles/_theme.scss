@@ -12,8 +12,18 @@
 
   --green: hsl(180, 16%, 19%);
   --blue: hsl(203, 65%, 8%);
-  --cta: hsl(28, 67%, 48%);
-  --cta-hover: hsl(28, 93%, 39%);
+
+  // background
+  --cta-bg: hsl(28, 67%, 48%);
+  --cta-hover-bg: hsl(28, 93%, 38%);
+  --primary-bg: ;
+  --secondary-bg: ;
+  --tertiary-bg: ;
+  // text color
+  --cta-txt: ;
+  --primary-txt: ;
+  --secondary-txt: ;
+  --tertiary-txt: ;
 
   --bg-primary: var(--gray-50);
   --bg-secondary: var(--gray-100);
