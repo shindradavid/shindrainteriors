@@ -26,6 +26,11 @@
 </main>
 
 <style lang="scss">
+  :global(body) {
+    margin: 0;
+    background-color: hsl(0, 0%, 0%);
+  }
+
   main {
     height: 100vh;
     max-height: 100vh;

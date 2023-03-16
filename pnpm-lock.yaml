@@ -4,6 +4,7 @@ specifiers:
   '@playwright/test': ^1.31.2
   '@sanity/client': ^5.3.0
   '@sanity/color-input': ^3.0.2
+  '@sanity/image-url': ^1.0.2
   '@sanity/vision': ^3.7.0
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.11.0
@@ -16,6 +17,7 @@ specifiers:
   prettier-plugin-svelte: ^2.9.0
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-icons: ^4.8.0
   react-is: ^18.2.0
   remixicon: ^2.5.0
   sanity: ^3.7.0
@@ -32,6 +34,7 @@ devDependencies:
   '@playwright/test': 1.31.2
   '@sanity/client': 5.3.0
   '@sanity/color-input': 3.0.2_jtm252jsww5h3oafl5bs6x3g3y
+  '@sanity/image-url': 1.0.2
   '@sanity/vision': 3.7.0_naxdq4ftv6hnbklxoymdh4kece
   '@sveltejs/adapter-auto': 2.0.0_@sveltejs+kit@1.11.0
   '@sveltejs/kit': 1.11.0_svelte@3.57.0+vite@4.1.4
@@ -44,6 +47,7 @@ devDependencies:
   prettier-plugin-svelte: 2.9.0_k23gl6auqwrxgr3e6o2bajswou
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-icons: 4.8.0_react@18.2.0
   react-is: 18.2.0
   remixicon: 2.5.0
   sanity: 3.7.0_iy4ajswa2bl7lf4ehy3tjdq2ru
@@ -4183,6 +4187,14 @@ packages:
       react-clientside-effect: 1.2.6_react@18.2.0
       use-callback-ref: 1.3.0_react@18.2.0
       use-sidecar: 1.1.2_react@18.2.0
+    dev: true
+
+  /react-icons/4.8.0_react@18.2.0:
+    resolution: {integrity: sha512-N6+kOLcihDiAnj5Czu637waJqSnwlMNROzVZMhfX68V/9bu9qHaMIJC4UdozWoOk57gahFCNHwVvWzm0MTzRjg==}
+    peerDependencies:
+      react: '*'
+    dependencies:
+      react: 18.2.0
     dev: true
 
   /react-is/16.13.1:
