@@ -1,5 +1,6 @@
 <script lang="ts">
   import Seo from '$components/Seo.svelte';
+  import tooltip from '$lib/actions/tooltip';
 </script>
 
 <Seo />
@@ -7,7 +8,7 @@
 <h1>Sleek, Stylish and Stunning Interiors.</h1>
 <p>Sleek, Stunning, Stylish interior designs.</p>
 <a href="/contact-us" class="btn primary-btn cta-btn">Contact us</a>
-<a href="/customer-stories">Customer stories</a>
+<a href="/customer-stories" use:tooltip={{text: 'tooltip', position: 'left'}}>Customer stories</a>
 
 <a href="/home-interiors" aria-label="Home Interior designs">
   <article>
