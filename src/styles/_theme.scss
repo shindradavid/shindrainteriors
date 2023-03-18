@@ -1,43 +1,34 @@
 :root {
-  --gray-50: hsl(0, 0%, 94%);
-  --gray-100: hsl(0, 0%, 86%);
-  --gray-200: hsl(0, 0%, 78%);
-  --gray-300: hsl(0, 0%, 70%);
-  --gray-400: hsl(0, 0%, 62%);
-  --gray-500: hsl(0, 0%, 54%);
-  --gray-600: hsl(0, 0%, 46%);
-  --gray-700: hsl(0, 0%, 22%);
-  --gray-800: hsl(0, 0%, 14%);
-  --gray-900: hsl(0, 0%, 8%);
-
-  --green: hsl(180, 16%, 19%);
-  --blue: hsl(203, 65%, 8%);
-
-  // background
-  --cta-bg: #c15f07;
-  --cta-bg: #EEC637;
-  --cta-stroke: #241c15;
-  --cta-txt: var(--gray-900);
-
-  --link-text: ;
-  --link-txt-hover: ;
-
-  --cta-hover-bg: hsl(28, 93%, 38%);
-  --primary-bg: ;
-  --secondary-bg: ;
-  --tertiary-bg: ;
-  // text color
-  --primary-txt: var(--gray-50);
-  --secondary-txt: ;
-  --tertiary-txt: ;
-
-  --bg-primary: var(--gray-50);
+  // brand colors
+  --magma: hsl(1, 77%, 51%);
+  --snow: hsl(0, 100%, 100%);
+  --almond-milk: hsl(60, 9%, 91%);
+  --almond-milk-light: hsl(60, 9%, 91%, 86%);
+  --lava-stone: hsl(0, 0%, 20%);
+  --lava-stone-light: hsl(0, 0%, 20%, 86%);
+  // background-color
+  --bg-primary: var(--almond-milk);
   --bg-secondary: var(--gray-100);
   --bg-tertiary: var(--gray-200);
-  --txt-primary: var(--gray-900);
-  --txt-secondary: var(--gray-800);
+  // text
+  --txt-primary: var(--lava-stone);
+  --txt-secondary: var(--lava-stone-light);
   --txt-tertiary: var(--gray-700);
+  // call to action
+  --cta-bg: var(--magma);
+  --cta-txt: var(--snow);
+  // links
+  --link-txt: var(--magma);
+}
 
+body {
   background-color: var(--bg-primary);
   color: var(--txt-secondary);
+}
+
+a,
+h1,
+h2,
+h3 {
+  color: var(--txt-primary);
 }

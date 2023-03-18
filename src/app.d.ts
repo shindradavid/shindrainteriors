@@ -9,4 +9,10 @@ declare global {
   }
 }
 
+declare namespace svelteHTML {
+  interface HTMLAttributes {
+    'on:clickOutside'?: (e: CustomEvent) => void;
+  }
+}
+
 export {};

@@ -8,7 +8,7 @@ export default defineType({
     defineField({
       name: 'name',
       title: 'Name*',
-      type: 'string',
+      type: 'string'
     }),
     defineField({
       name: 'slug',
@@ -41,4 +41,4 @@ export default defineType({
       ]
     })
   ]
-})
+});

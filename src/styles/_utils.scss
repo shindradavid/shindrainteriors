@@ -21,7 +21,6 @@
   width: fit-content;
   font-weight: 700;
   text-decoration: none;
-
   font-family: var(--base-ff);
   font-size: var(--base-fs);
   border-radius: var(--btn-radius);
@@ -35,14 +34,6 @@
 .cta-btn {
   background-color: var(--cta-bg);
   color: var(--cta-txt);
-
-  &:hover {
-    background-color: var(--cta-hover-bg);
-  }
-
-  &:focus {
-    background-color: var(--cta-hover-bg);
-  }
 }
 
 .primary-btn {

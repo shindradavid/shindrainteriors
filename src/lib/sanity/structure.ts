@@ -1,3 +1,3 @@
-import {} from 'sanity'
+import {} from 'sanity';
 
-export const structure = (S) => S
+export const structure = (S) => S;
